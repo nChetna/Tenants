@@ -15,9 +15,10 @@ function App() {
       const res = await axios.get(`https://hungry-skinny-cappelletti.glitch.me/tenants`)
       const data = res.data;
                 const slice = data.slice(offset, offset + perPage)
+                
                 const postData = slice.map(pd => 
                     <div className="profile" key={pd.id}>
-                        <h1>Choose A Profile</h1>
+                       
                         <div className="profile__container">
                             <div className="profile__wrapper">
                                 <ul className="profile__items">
