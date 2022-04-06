@@ -1,0 +1,12 @@
+.profile-items {
+    border: 1px solid #aaa;
+    background: #eee;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .profile-items:hover {
+    background: #6600ff;
+    color: #fff;
+  }
+  
