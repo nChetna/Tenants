@@ -1,42 +1,3 @@
-// // import React from "react";
-// // import "./Profile.css";
-
-// // import ProfileItems from "../../components/ProfileItems/ProfileItems";
-
-// // export default function Profile() {
-// //   return (
-// //     <div className="profile">
-// //       <h1>Choose A Profile</h1>
-// //       <div className="profile__container">
-// //         <div className="profile__wrapper">
-// //           <ul className="profile__items">
-// //             <ProfileItems
-// //               title="Kim Kardashian"
-// //               src="images/KimK.jpg"
-// //               text="Kim Kardashian - Skims"
-// //               label="Social Media Influncer"
-// //             />
-// //             <ProfileItems
-// //               title="The Rock"
-// //               src="images/TheRock.jpg"
-// //               text="The Rock - Zoa Energy Drink"
-// //               label="Pressional Wrestler & Actor"
-// //             />
-// //             <ProfileItems
-// //               title="Ronaldo"
-// //               src="images/Ronaldo.jpg"
-// //               text="Cristiano Ronaldo - Portugal Team"
-// //               label="Professional Soccer Player"
-// //             />
-// //           </ul>
-// //         </div>
-// //       </div>
-// //     </div>
-// //   );
-// // }
-
-
-  
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
 import ReactPaginate from 'react-paginate';
@@ -64,7 +25,6 @@ function App() {
                                         id={pd.id}
                                         title={pd.name}
                                         text={pd.type}
-                                        // label={pd.status}
                                         />
                                 </ul>
                             </div>

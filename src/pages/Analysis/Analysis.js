@@ -7,9 +7,7 @@ export default function Analysis() {
   const [res, setRes] = useState([]);
   
   useEffect(() => {
-    async function getQuotes() {
-      console.log(title , "title");
-      
+    async function getQuotes() {      
       const response = await fetch(`https://hungry-skinny-cappelletti.glitch.me/tenants/${title}`);
       const Data = await response.json();      
       setRes(Data);
@@ -18,7 +16,6 @@ export default function Analysis() {
     getQuotes();
   }, []);
 
-  console.log(res , "response");
   return (
      <div className="analysis">
         <div key={ res.id }>

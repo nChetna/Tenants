@@ -3,7 +3,6 @@ import {  BrowserRouter as Router } from "react-router-dom";
 import { Route } from "react-router-dom";
 import { Switch } from "react-router-dom";
 import { Redirect } from "react-router-dom";
-// import {Profile} from './pages/Profile/Profile.js'
 import "./App.css";
 
 // Components
